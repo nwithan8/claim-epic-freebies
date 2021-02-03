@@ -5,8 +5,8 @@ on: # When to run this workflow
 
 # Uncomment the below lines to enable manual trigger.
 
-#    watch:
-#        types: [started] # When repo owner stars this repo
+    watch:
+        types: [started] # When repo owner stars this repo
 
     schedule:
         - cron: "0 0 * * *" # Everyday at 00:00 UTC
